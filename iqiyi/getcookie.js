@@ -1,0 +1,1 @@
+javascript: (function () { var% C2 % A0textareaEl=document.createElement('textarea'); textareaEl.value = document.cookie; document.body.appendChild(textareaEl); textareaEl.select(); var% C2 % A0res=document.execCommand("Copy"); if (res) { alert("复制成功") } else { alert("复制失败") } })()
